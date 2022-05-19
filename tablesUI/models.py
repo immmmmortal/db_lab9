@@ -41,6 +41,7 @@ class Workload(models.Model):
     def __str__(self):
         return self.teacher_id
 
+
 class Task(models.Model):
     task_pk = models.AutoField(primary_key=True)
     task_text = models.TextField()
