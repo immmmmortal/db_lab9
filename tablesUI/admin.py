@@ -11,6 +11,7 @@ class CustomModelAdmin(admin.ModelAdmin):
 
 class StudentAdmin(CustomModelAdmin):
     pass
+    list_per_page = 5
 
 
 admin.site.register(Student, StudentAdmin)
